@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>[Online Store]</title>
+   <link rel="stylesheet"
+         type="text/css"
+         href="republicRamen.css">
+</head>
+<body>
+   <h1>REPUBLIC RAMEN RETAIL</h1>
+   <div id="headerBar">
+      <img src="ramen/menuIcon.png">
+      <img id="cartButton" src="ramen/cartIcon.png">
+   </div>
+   
+   <div id="menu">
+      <h3>Menu</h3>
+      <ul>
+         <li>Ramen Recipes</li>
+         <li>Non-ramen Ramen</li>
+         <li>Broken Link</li>
+         <li>Ramen for Sale</li>
+      </ul>
+   </div>
+   
+   <div id="shoppingCart">
+      <ul id="cartItems"> /* hidden and unchecked */
+         <li>Chicken</li>
+         /* the rest of the list here*/
+      </ul>
+      <p>Total:</p> 
+      <p id="cartTotal">$0.00</p>
+      
+      <button type="button" id="checkout">
+         Checkout</button>
+      
+      <form>
+         <p>First Name</p>
+         <input type="text" name="firstName">
+         
+         <p>Last Name</p>
+         <input type="text" name="lastName">
+         
+         <p>Address</p>
+         <p class="note">Street Address, City, State, Zipcode</p>
+         <input type="text" name="address">
+         
+         <p>Credit Card Type</p>
+         <input type="radio" name="cardType">
+         /* TODO figue out radio buttons*/
+         
+         <p>Card Number</p>
+         <input type="text" name="cardNumber">
+         
+         <p>Expiration Date</p>
+         <p class="note">MM/YYYY</p>
+         <input type="text" name="expirationDate">
+         
+         <button type="submit" id="submit">
+         Submit Order</button>
+      </form>
+   </div>
+   
+   <div id="content">
+      
+      <div class="product">
+         <img src="ramen/shinRamyun.jpg">
+         <p class="label">Shin Ramyun $1.20</p>
+      </div>
+      
+      <div class="product">
+         <img src="ramen/chicken.jpg">
+         <p class="label">Chicken Ramen $0.75</p>
+      </div>
+      
+      <div class="product">
+         <img src="ramen/miGoreng.jpg">
+         <p class="label">Mi Goreng $1.00</p>
+      </div>
+      
+      <div class="product">
+         <img src="ramen/oriental.jpg">
+         <p class="label">Ramen $0.75</p>
+      </div>
+      
+       <div class="product">
+         <img src="ramen/samyangHotChicken.jpg">
+         <p class="label">Ramen $0.75</p>
+      </div>
+      
+       <div class="product">
+         <img src="ramen/shrimp.jpg">
+         <p class="label">Ramen $0.75</p>
+      </div>
+      
+       <div class="product">
+         <img src="ramen/variety.jpg">
+         <p class="label">Ramen $0.75</p>
+      </div>
+      
+   </div>
+   
+   <script href="formValidate.js"></script>
+</body>
+</html>
