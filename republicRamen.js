@@ -1,2 +1,0 @@
-// Form Validate JavaScript
-
