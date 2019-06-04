@@ -1,0 +1,37 @@
+/* CSS for Mortgage Calculator */
+
+* {
+   text-align: center;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+h1 {
+   margin-top: 20px;
+   font-size: 40px;
+}
+
+h2 {
+   font-size: 18px;
+   margin: 15px auto 3px auto;
+}
+
+.req {
+   display: none;
+   color: red;
+}
+
+#clear {
+   font-size: 10px;
+   /*margin-top: 30%;*/
+   margin-bottom: 30px;
+}
+
+#calculate {
+   font-size: 30px;
+   margin: auto;
+   padding: 8px;
+   display: block;
+}

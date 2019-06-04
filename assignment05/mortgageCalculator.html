@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+   <title>Mortgage Calculator</title>
+   <link rel="stylesheet" 
+         type="text/css" 
+         href="mortgage.css">
+</head>
+<body>
+   <h1>Mortgage Calculator</h1>
+   <p>Fill out the form below and click 'calculate'.</p>
+   <form>
+      <h2>APR - Annual Percentage Rate</h2>
+      <p class="req">Required Field</p>
+      <input id="apr" class="in" type="text">
+      
+      <h2>Loan Term(in years)</h2>
+      <p class="req">Required Field</p>
+      <input id="term" class="in" type="text">
+      
+      <h2>Loan Amount (in dollars)</h2>
+      <p class="req">Required Field</p>
+      <input id="amount" class="in" type="text">
+      
+      <h2>Monthly Payment </h2>
+      <p id="payment">$</p>
+      
+      <button id="calculate" type="button">
+         Calculate Payment</button>
+      
+      <button id="clear" type="button">
+         Clear Form</button>
+      
+   </form>
+   
+   <img src="Loan%20Payment%20Formula%201.gif">
+   
+   
+   <script src="mortgage.js"></script> 
+</body>
+</html>
